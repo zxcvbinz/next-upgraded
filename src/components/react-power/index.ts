@@ -1,3 +1,4 @@
 import Switch from './switch';
+import Switcher from './switcher';
 
-export { Switch };
+export { Switch, Switcher };

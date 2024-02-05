@@ -1,8 +1,12 @@
 {
 	"name": "next-upgraded",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Next with the superpowers",
 	"main": "dist/index.js",
+	"exports": {
+		".": "./dist/index.js",
+		"./react-power": "./dist/components/react-power/index.js"
+	},
 	"scripts": {
 		"build": "tsc --skipLibCheck",
 		"test": "echo \"Error: no test specified\" && exit 1"
